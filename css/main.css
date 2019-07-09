@@ -76,6 +76,18 @@
 }
 
 #images {
-    display: grid;
-    grid-template-columns: 50% 50%;
+margin: auto;
+width: 800px;
+height: 3300px;
+}
+
+#rij_1, #rij_2{
+    width: 50%;
+    height: 900px;
+    float: left;
+}
+
+#rij_1 img, #rij_2 img{
+    width: 100%;
+    clear;
 }
