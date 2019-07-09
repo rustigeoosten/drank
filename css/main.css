@@ -87,7 +87,13 @@ height: 3300px;
     float: left;
 }
 
-#rij_1 img, #rij_2 img{
+#rij_1 img, #rij_2 img {
     width: 100%;
-    clear;
+    clear: both;
+}
+
+#footer {
+    background-color: grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
